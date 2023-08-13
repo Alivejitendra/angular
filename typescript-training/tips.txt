@@ -1,0 +1,3 @@
+for get and set method generate
+
+select varibale and right click on select generate method

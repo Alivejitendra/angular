@@ -1,0 +1,23 @@
+Currently all of our code in single file
+
+for real-time projects, we would like to place code in separe files
+
+Driver.ts
+        1) Customer.ts
+        2) Product.ts
+        3) Account.ts
+
+        Driver.ts                       --------------          Customer.ts
+        IMport the Customer class                           Export the Customer class
+
+
+        File: Customer.ts
+        export class Customer {
+
+        }
+
+        File: Driver.ts
+        import{Customer} from './Customer';    /* Path of file as Customer class*/ 
+        let myCustomer= new Customer ("Jitendra", "Singh");
+        console.log(myCustomer.fisrtName);
+        console.log(myCustomer.lastName);

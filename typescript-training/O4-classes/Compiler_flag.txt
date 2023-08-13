@@ -1,0 +1,31 @@
+The get/set accessors feature is only supported in ES5 and higher
+you have to set a compiler flag in order to compile the code
+
+c:\> tsc --target ES5 --noEmitOnError Customer.ts
+
+
+if any configuration the tsconfig.json file as solution
+
+1. tsconfig.json file defines compiler options and project settings
+2. Place file in the root of your project directory
+
+File:tsconfi.json--->
+		
+
+	{
+		"compilerOptions": {
+ 		"noEmitonError": true,
+		"target": "es5"
+		}
+	}
+
+3. Also generate template
+		c:\> tsc --init
+	then edit tsconfig.json accordingly for you project requirments
+
+
+Compiling your proect 
+
+	c:\> tsc 
+		"No need to give names of TypeScript files.
+		by default , will compile all *.ts files"
