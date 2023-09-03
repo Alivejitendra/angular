@@ -1,3 +1,9 @@
 for get and set method generate
 
 select varibale and right click on select generate method
+
+
+
+/*Command For TSC tsccofig.json Compiler */
+
+tsc --init
